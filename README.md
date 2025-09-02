@@ -8,20 +8,23 @@ Password Auditing & Recovery – Identifies weak passwords, performs ethical rec
 This system aims to provide a comprehensive AI-driven shield against modern cyber threats, strengthening both organizational and national security.
 
 ## Problem Statements Addressed
-PS-1: LLMs to Detect Vulnerability in Open-Source Software
-PS-2: Phishing Detection
-PS-7: Password Extraction & Decryption (ethical auditing use case)
+- **PS-1:** LLMs to Detect Vulnerability in Open-Source Software
+- **PS-2:** Phishing Detection
+- **PS-7:** Password Extraction & Decryption (ethical auditing use case)
 
-## Tech Stack
-Languages: Python (ML/AI), JavaScript (Dashboard – React)
-Frameworks: PyTorch, TensorFlow, Hugging Face Transformers, Scikit-learn
-Web Backend: Flask / Django
-Database: PostgreSQL / MongoDB
-Security Tools: Hashcat, John the Ripper (for password auditing)
-Deployment: Docker, Kubernetes, Cloud (AWS/GCP/Azure)
+## Tech Stack  
+
+- **Languages:** Python (ML/AI), JavaScript (Dashboard – React)  
+- **Frameworks & Libraries:** PyTorch, TensorFlow, Hugging Face Transformers, Scikit-learn  
+- **Web Backend:** Flask / Django  
+- **Database:** PostgreSQL / MongoDB  
+- **Security Tools:** Hashcat, John the Ripper (for password auditing)  
+- **Deployment:** Docker, Kubernetes, Cloud (AWS/GCP/Azure)  
+
 
 ## Project Structure
-
+ 
+```plaintext
 CyberShield-AI-Suite/
 ├── data/                  # datasets (phishing, vulnerabilities, passwords)
 ├── notebooks/             # Jupyter notebooks for experiments
@@ -32,6 +35,7 @@ CyberShield-AI-Suite/
 ├── dashboard/             # frontend + backend web application
 ├── docs/                  # project documentation, abstract, reports
 └── README.md
+```
 
 ## Modules & Features
 ### Vulnerability Detection (PS-1)
@@ -61,15 +65,16 @@ To install them, run:
 ```bash
 pip install -r requirements.txt
 ```
+## Roadmap  
 
-## Roadmap
-Week 1: Team setup, environment setup, dataset collection.
-Week 2–3: Build baseline models (vulnerability, phishing, password auditor).
-Week 4–5: Integrate modules into unified dashboard.
-Week 6+: Optimize models, test, and deploy.
+- **Week 1:** Team setup, environment setup, dataset collection  
+- **Week 2–3:** Build baseline models (vulnerability, phishing, password auditor)  
+- **Week 4–5:** Integrate modules into unified dashboard  
+- **Week 6+:** Optimize models, test, and deploy  
+
 
 ## Team Members
-Divyansh 
-Sahil Aggarwal 
-kaki
-Tushar Khatri
+- **Divyansh** 
+- **Sahil Aggarwal** 
+- **kaki**
+- **Tushar Khatri**
